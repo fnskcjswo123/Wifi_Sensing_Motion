@@ -60,7 +60,7 @@ while True:
     elif line:
         if time.time() - last_logupd > logupd_time:
             logging.info('Data received from Esp32s3')
-            #so laggy
+            #so laggy(↓↓↓ Commented out due to performance issues)
             #logging.info(f'{line}')
             last_logupd = time.time()
         try:
