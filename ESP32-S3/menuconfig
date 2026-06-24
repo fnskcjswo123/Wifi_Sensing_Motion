@@ -3,3 +3,4 @@ You must change the following in the menuconfig
 Should collect CSI -> Activate
 Send CSI to Serial -> Activate
 Wi-Fi CSI Options Activate (Component config → Wi-Fi)
+SSID, and PASSWORD Setup
