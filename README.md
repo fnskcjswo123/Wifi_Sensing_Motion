@@ -48,3 +48,25 @@ If these values exceed a predefined threshold, the system determines that motion
 <br></br>
 <img width="4000" height="3000" alt="KakaoTalk_20260624_215948739_14" src="https://github.com/user-attachments/assets/698caafa-f524-4dbf-9931-ebd8ee582507" />
 <br></br>
+
+### Code
+<img width="4000" height="3000" alt="KakaoTalk_20260624_215948739_03" src="https://github.com/user-attachments/assets/3ab31859-68a3-453e-9ed8-9e92693acc60" />
+<br></br>
+<img width="4000" height="3000" alt="KakaoTalk_20260624_215948739_04" src="https://github.com/user-attachments/assets/a05a6d19-1b3e-4141-812d-d87c1d7dc07d" />
+<br></br>
+<img width="4000" height="3000" alt="KakaoTalk_20260624_215948739_05" src="https://github.com/user-attachments/assets/d3d6e037-f078-4f79-8aa5-e4ace30dbab1" />
+<br></br>
+
+### Others
+<img width="4000" height="3000" alt="KakaoTalk_20260624_215948739_12" src="https://github.com/user-attachments/assets/4fa666ef-8967-4cc3-9ae7-076ae54392ad" />
+<br></br>
+<img width="4000" height="3000" alt="KakaoTalk_20260624_215948739_07" src="https://github.com/user-attachments/assets/bd1c07ed-4856-4e95-9fae-e192a1ae6fd1" />
+<br></br>
+<img width="4000" height="3000" alt="KakaoTalk_20260624_215948739_09" src="https://github.com/user-attachments/assets/36afee65-1a31-4f6f-97bc-9b3e92f42909" />
+<br></br>
+<img width="4000" height="3000" alt="KakaoTalk_20260624_215948739_08" src="https://github.com/user-attachments/assets/d49c0782-0cf4-4463-8a66-f02c72e91ab9" />
+<br></br>
+<img width="4000" height="3000" alt="KakaoTalk_20260624_215948739_11" src="https://github.com/user-attachments/assets/c3a16299-3349-4886-a2f9-51306c35d419" />
+<br></br>
+<img width="4000" height="3000" alt="KakaoTalk_20260624_215948739_10" src="https://github.com/user-attachments/assets/95e1bfa3-97c8-429c-80de-46f1a2a72b24" />
+<br></br>
