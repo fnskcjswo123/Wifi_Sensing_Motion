@@ -17,6 +17,10 @@ Motion detection with wifi sensing
 라즈베리파이에서는 수신된 데이터의 평균 및 분산 값을 계산하며, 이 값이 임계치를 웃돌 때 움직임을 감지합니다.
 <br></br>
 
+### 힘들었던점
+NetworkManager가 계속 wlan0을 잡고있어 wlan0을 hostapd로 핫스팟을 틀기가 힘들었습니다,,
+<br></br>
+
 ## ENG
 ### Used Devices
 - ESP32-S3-N16R8
@@ -32,6 +36,10 @@ The ESP32 connects to this hotspot and captures CSI data, which is then sent bac
 The Raspberry Pi processes the incoming CSI data to calculate its mean and variance.
 <br></br>
 If these values exceed a predefined threshold, the system determines that motion has been detected.
+<br></br>
+
+### Things that were hard
+The hostapd service failed to initialize the hotspot because NetworkManager was continuously managing the wlan0 interface. 
 <br></br>
 
 ## Screenshots
