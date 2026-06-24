@@ -1,5 +1,5 @@
 # Wifi_Sensing_Motion
-Motion detection with wifi sensing
+Motion detection with WI-FI Sensing!
 <br></br>
 (This is just for my own college project, so who cares)
 <br></br>
