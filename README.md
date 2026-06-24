@@ -7,6 +7,7 @@ Motion detection with wifi sensing
 ## KOR
 ### 사용된 기기
 - ESP32-S3-N16R8
+<br></br>
 - Raspberry Pi 3 Model B
 <br></br>
 
@@ -19,6 +20,7 @@ Motion detection with wifi sensing
 ## ENG
 ### Used Devices
 - ESP32-S3-N16R8
+<br></br>
 - Raspberry Pi 3 Model B
 <br></br>
 
