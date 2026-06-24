@@ -1,3 +1,21 @@
+/*
+이 파일이 어떤 일을 하나요(요약):
+#include "esp_spi_flash.h" 삭제 (IDF v6.0.1 호환)
+set-target esp32s3 타겟 변경
+Wi-Fi 연결 후 CSI 초기화하도록 순서 변경
+핸드셰이크 추가 (Esp32s3_Ready 송출 → Raspberrypi_Ready 수신 후 전송 시작)
+FreeRTOS 태스크 우선순위 100 → 10으로 조정
+while(1) { vTaskDelay(...) } 추가로 프로그램 안정화
+
+What does this file do(Summary):
+Removed <esp_spi_flash.h> to ensure compatibility with IDF v6.0.1.
+Changed the build target to esp32s3.
+Reordered initialization: Wi-Fi connection now precedes CSI initialization.
+Implemented a handshake mechanism: The ESP32-S3 now sends Esp32s3_Ready and waits to receive Raspberrypi_Ready before starting data transmission.
+Adjusted FreeRTOS task priority: Decreased from 100 to 10 for better system stability.
+Enhanced program stability: Added vTaskDelay() within the while(1) loop to prevent watchdog triggers and ensure efficient CPU usage.
+*/
+
 #include <stdio.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
