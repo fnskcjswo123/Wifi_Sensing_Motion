@@ -1,0 +1,8 @@
+# use sudo nano /etc/rc.local
+
+
+#!/bin/sh -e
+
+ip addr add 192.168.4.1/24 dev wlan0
+
+exit 0
