@@ -39,7 +39,7 @@ If these values exceed a predefined threshold, the system determines that motion
 <br></br>
 
 ### Things that were hard
-The hostapd service failed to initialize the hotspot because NetworkManager was continuously managing the wlan0 interface. 
+The hostapd service failed to initialize the hotspot because NetworkManager was continuously managing the wlan0 interface,,
 <br></br>
 
 ## Screenshots
