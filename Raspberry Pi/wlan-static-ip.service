@@ -7,7 +7,7 @@ After=network.target
 [Service]
 Type=oneshot
 ExecStart=/sbin/ip addr add 192.168.4.1/24 dev wlan0
-RamainAfterExit=yes
+RemainAfterExit=yes
 
 [Install]
 WantedBy=multi-user.target
