@@ -1,3 +1,19 @@
+/*
+이 파일이 어떤 일을 하나요(요약):
+esp_wifi_set_csi(1) → esp_wifi_set_csi(true) 변경
+wifi_csi_config_t 초기화 방식 변경 (= {} 로 전체 초기화)
+stringstream 기반 → snprintf 기반으로 출력 로직 교체
+Queue + 별도 태스크 구조로 콜백 경량화
+#endif 누락 수정
+
+What does this file do(Summary):
+Updated esp_wifi_set_csi API usage: Changed from 1 to true for better readability.
+Improved wifi_csi_config_t initialization: Switched to uniform initialization (= {}) to ensure all fields are zero-initialized.
+Optimized output logic: Replaced stringstream with snprintf to reduce memory overhead and improve performance.
+Refactored callback structure: Moved data processing to a dedicated FreeRTOS task using a Queue to keep the callback execution lightweight.
+Fixed missing #endif: Added the missing preprocessor directive to correct compilation errors.
+*/
+
 #ifndef ESP32_CSI_CSI_COMPONENT_H
 #define ESP32_CSI_CSI_COMPONENT_H
 
