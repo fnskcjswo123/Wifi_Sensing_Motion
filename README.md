@@ -66,6 +66,8 @@ The hostapd service failed to initialize the hotspot because NetworkManager was 
 <br></br>
 
 ### Others
+<img width="4000" height="3000" alt="KakaoTalk_20260625_203718306" src="https://github.com/user-attachments/assets/72c18d4a-f3e6-4343-9724-5cff81cd0ec6" />
+<br></br>
 <img width="4000" height="3000" alt="KakaoTalk_20260624_215948739_12" src="https://github.com/user-attachments/assets/4fa666ef-8967-4cc3-9ae7-076ae54392ad" />
 <br></br>
 <img width="4000" height="3000" alt="KakaoTalk_20260624_215948739_07" src="https://github.com/user-attachments/assets/bd1c07ed-4856-4e95-9fae-e192a1ae6fd1" />
