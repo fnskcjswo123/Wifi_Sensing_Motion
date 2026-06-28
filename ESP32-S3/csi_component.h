@@ -66,7 +66,6 @@ void csi_process_task(void *pvParameters) {
         if (xQueueReceive(csi_queue, &d, portMAX_DELAY)) {
             int offset = 0;
 
-            // ?щ㎎ ?ㅽ듃留곴낵 ?몄옄 媛쒖닔瑜?1:1濡??뺥솗??留욎텛湲?
             offset += snprintf(print_buf + offset, sizeof(print_buf) - offset,
                 "CSI_DATA,%s,%02X:%02X:%02X:%02X:%02X:%02X,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%u,%d,%d,%d,%lld,%lld,%d,[",
                 project_type,
